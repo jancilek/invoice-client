@@ -1,0 +1,6 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+Práce do kurzu PRO jsou hodnoceny na společném Code Review, zde jen rychlý komentář:
+- snažte se sjednotit chování, které se sjednotit dá, a zjednodušit tak codebase i správu. Někdy nám postupně vznikne více komponent s téměř totožným chováním, přitom by šly sloučit do jedné
+- u hooků useEffect rozlišujte, kdy se volají a co se mění
+- ne všechno je stav, ale naopak, některé údaje se jako stav hodí, abychom ho mohli řídit
